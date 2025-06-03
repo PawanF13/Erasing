@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Erasing (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Erasing (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
