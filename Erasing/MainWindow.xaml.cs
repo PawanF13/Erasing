@@ -132,10 +132,10 @@ namespace Erasing
 
         private void OnEraseClick(object sender, RoutedEventArgs e)
         {
-            if (currentToolMode == ToolMode.Warp && !ControlPointsAreUnchanged())
-            {
-                ApplyWarpToGPUTexture((int)imageWidth, (int)imageHeight);
-            }
+            // if (currentToolMode == ToolMode.Warp && !ControlPointsAreUnchanged())
+            // {
+            //     ApplyWarpToGPUTexture((int)imageWidth, (int)imageHeight);
+            // }
             currentToolMode = ToolMode.Erase;
             isErasing = true;
             MainCanvas.Invalidate();
